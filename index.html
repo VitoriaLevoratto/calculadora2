@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Propagação de Onda</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>        
+</head>
+<br>
+<body>
+
+<div>
+
+    <h2>CALCULADORA</h2> <!-- titulo do programa -->
+    <h1>Propagação de Ondas</h1> <!-- subtitulo do programa -->
+<form action="#" method="post" id="formulario"> <!--Início do Formulário-->
+ 
+    
+    <div> <!-- div para o input/label 'F= frequência(hz)' -->
+        <label for="inputfrequencia">F= frequência(hz)</label> <!-- label: é um indentificador do input, neste caso 'frequência' -->
+        <br>    
+        <input type="number" name="F" id="inputfrequencia"> <!-- input: é responsavel por criar o campo interativo para 'frequência', para poder colocar os números -->
+    </div>
+
+
+    <div> <!-- div para o input/label 'λ= comprimento da onda(n)' -->
+        <label for="inputcomprimento">λ= comprimento da onda(n)</label> <!-- label: é um indentificador do input, neste caso 'comprimento' -->
+        <br>    
+        <input type="number" name="C" id="inputcomprimento"> <!-- input: é responsavel por criar o campo interativo para 'comprimento', para poder colocar os números -->
+    </div>
+
+
+    <div> <!-- div para o botão 'CALCULAR' -->
+        <button type="button" id="calcular">CALCULAR</button> <!-- botão cujo terá de ser clicado para que os valores prenchindos no campo 'input' sejam calculados -->
+    </div>
+
+</form> <!--fim do Formulário-->
+
+    <div>
+        <h3>RESULTADO</h3>
+        <p id="resultado"></p> <!-- lugar onde sera exibido o resultado do valor calculado -->
+    </div>
+
+</div>
+
+</body>
+</html>

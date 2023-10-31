@@ -1,0 +1,103 @@
+
+body {
+    background-color: #05172e;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #061D39;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+
+  h1 {
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+
+
+  h2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+  
+
+  form {
+    margin-top: 20px;
+  }
+  
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+  
+ 
+  input[type="number"] {
+    width: 100%;
+    padding: 7px 3px 7px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+  }
+
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #05172e;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+
+  button:hover {
+    background-color: #05172e;
+    color: white;
+  }
+  
+
+  h3 {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400 bold;
+    text-align: center;
+  }
+  
+
+  p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+  
+
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+  }
